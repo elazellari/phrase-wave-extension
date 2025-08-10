@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Phrase Wave",
+    "version": "1.0.0",
+    "description": "Make reading easier by summarizing entire paragraphs",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "images/logo.png"
+    }
+  }

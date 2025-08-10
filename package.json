@@ -1,0 +1,25 @@
+{
+  "name": "phase-wave-extension",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "chrome extension to summarize paragraphs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "paragraph",
+    "summarize"
+  ],
+  "author": "Erjon Lazellari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "groq-sdk": "^0.8.0",
+    "path": "^0.12.7"
+  }
+}
